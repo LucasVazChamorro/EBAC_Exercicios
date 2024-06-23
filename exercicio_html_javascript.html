@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício EBAC</title>
+    <style>
+        form {
+            margin-top: 40px;
+        }
+
+        input, button {
+            padding: 8px;
+            margin-bottom: 4px;
+            width: 200px;
+            resize: none;
+        }
+
+        button {
+            background-color: #2e8dcc;
+            border: none;
+            text-transform: uppercase;
+            color: #FFF;
+            font-weight: bold;
+            font-size: 18px;
+            font-style: italic;
+            cursor: grab;
+            width: 284px;
+        }
+
+        button:hover {
+            background-color: #275dae;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário</h1>
+        <h2>Exercício</h2>
+        <form id="exercicio">
+            <label>Campo A</label>
+            <input id="number_a" type="number" required placeholder="Digite um número"/> <br/>
+    
+            <label>Campo B</label>
+            <input id="number_b" type="number" required placeholder="Digite outro número"/> <br/>
+            <br/>
+            <button id="submit" type="submit">
+                Enviar Formulário
+            </button>
+        </form>
+    </div>
+    <script>
+        debugger
+
+        const form = document.getElementById("exercicio")
+
+        form.addEventListener('submit', function(e){
+        e.preventDefault();
+
+            const numberA = document.getElementById('number_a').value;
+            const numberB = document.getElementById('number_b').value;
+
+            const number_a = Number(numberA)
+            const number_b = Number(numberB)
+
+            const validacao = `Formulário enviado com sucesso!\nOs valores: ${number_a} e ${number_b} informados são válidos;`
+
+            formEValido = numberB > numberA == true
+            if (formEValido) {
+                alert(validacao);
+
+            } else(alert("FORMULÁRIO INVÁLIDO !!!!\nO número do Campo A deve ser MENOR que o do campo B  !!! \nPor favor, tente novamente!"));
+        })
+    </script>
+</body>
+</html>
