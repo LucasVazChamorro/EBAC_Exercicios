@@ -1,0 +1,14 @@
+A importância do HTML, CSS e JavaScript na construção de páginas
+
+
+O HTML (Hyper Text Markup Language) é a principal linguagem para construção de páginas web, inicialmente, em 1991, esta linguagem propiciava o compartilhamento de documentos de forma simples, em que, utilizando o HTML como uma linguagem de marcação, deixava-o estruturado através de tags, e alguns elementos básicos, contudo, não existia a possibilidade de interatividade ou recursos avançados. 
+
+Com o passar do tempo, a difusão da tecnologia, e as necessidades profissionais e sociais, o HTML passou por várias transformações, contendo, atualmente, diversas propriedades de estruturação do conteúdo, incluindo imagens, áudios, vídeos, e também, o modo de compatibilidade, com a finalidade de poder ser utilizado em diversos navegadores, além de garantir a acessibilidade aos portadores de necessidades especiais, promovendo a inclusão social. 
+
+Importante mencionar também que o HTML possui indexadores que, ao serem bem trabalhados pelos desenvolvedores, permitirá uma eficiente interação com os mecanismos de busca, melhorando a visibilidade da página.
+
+O CSS (Cascading Style Sheets) permite a estilização do documento escrito em HTML, ou seja, a forma como os elementos são mostrados na interface do usuário, podendo ser definidas cores, fontes, tamanhos, espaçamentos, bordas, margens, entre várias outras propriedades visuais. Também contempla o aspecto da responsividade, ou seja, a adaptação aos diferentes tamanhos de tela e dispositivos, melhorando a experiência no uso em desktops, tables, smartphones.
+
+Por fim, o JavaScript é uma linguagem de programação que possibilita adicionar a interatividade, dinamismo e funcionalidades avançadas às páginas através de animações, formulários, e interações do usuário. Essas interações podem envolver cliques do mouse, pressionamento de teclas, ou simples movimentos de mouse, e ainda, destaque de elementos, permitindo uma gama de possibilidades as quais alavancam a experiência do usuário.
+
+Logo a junção dessas tecnologias promovem a experiência do usuário, e constituem parte fundamental da internet como um todo, sendo o HTML como estruturação básica – linguagem de marcação – definindo os parágrafos, imagens, links, títulos, etc., o CSS estilizando o layout da página, e o JavaScript promovendo a interação e o dinamismo.

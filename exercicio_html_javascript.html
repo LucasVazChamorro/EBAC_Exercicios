@@ -53,20 +53,20 @@
     <script>
         debugger
 
-        const form = document.getElementById("exercicio")
+        const form = document.getElementById("exercicio")  // declarei o formulário como uma constante!
 
-        form.addEventListener('submit', function(e){
-        e.preventDefault();
+        form.addEventListener('submit', function(e){     // adicionei o formulário para que quando ele for acionado, seja disparada a função para não enviar o formulário
+        e.preventDefault();                             // pois, se o formulário for enviado, não conseguirei capturar os dados inseridos nele para fazer a validação.
 
-            const numberA = document.getElementById('number_a').value;
-            const numberB = document.getElementById('number_b').value;
+            const numberA = document.getElementById('number_a').value;  //então declarei o primeiro dado como uma constante
+            const numberB = document.getElementById('number_b').value;  // da mesma forma, o segundo dado
 
-            const number_a = Number(numberA)
+            const number_a = Number(numberA) // como os dois dados capturados estão na forma string, é preciso convertê-los para number para poder fazer a validação booleana
             const number_b = Number(numberB)
 
             const validacao = `Formulário enviado com sucesso!\nOs valores: ${number_a} e ${number_b} informados são válidos;`
 
-            formEValido = numberB > numberA == true
+            formEValido = numberB > numberA == true 
             if (formEValido) {
                 alert(validacao);
 
